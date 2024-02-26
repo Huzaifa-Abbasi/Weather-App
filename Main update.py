@@ -49,6 +49,12 @@ def getWeather():
         messagebox.showerror("Weather App","Invalid Entry!!")
 
 
+# quest logo 
+quest_Logo_image=PhotoImage(file="D:\QUEST\PF (PROJECTS)\Python Weather App\Quest.png")
+quest_logo=Label(image=quest_Logo_image, borderwidth=0)
+quest_logo.place(x = 180,y=1)
+
+
 #search box
 # copy the path of search image and paste it in 1st line in (file = ..........)
 Search_image=PhotoImage(file="D:/QUEST/PF (PROJECTS)/Python Weather App/search.png")
@@ -88,7 +94,7 @@ clock.place(x=30,y=130)
 
  #label
 label0 = Label(root, text = "Qᴜᴇꜱᴛ ᴡᴇᴀᴛʜᴇʀ ᴀᴘᴘ", font = ("ARIAL",35, 'bold'),fg = "black" )
-label0.place(x = 230,y=1)
+label0.place(x = 270,y=13)
 
 label1=Label(root, text= "WIND" ,font=("Helvetica" ,15, 'bold'),fg="white",bg= "#1ab5ef")
 label1.place(x=120,y=400)
